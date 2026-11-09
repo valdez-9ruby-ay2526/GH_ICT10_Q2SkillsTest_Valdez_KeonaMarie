@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1e50ff, #5c00d2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 520px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    background-color: #0066ff;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.header p {
+    margin: 6px 0 0 0;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.content {
+    padding: 24px;
+}
+
+.instructions-box {
+    background-color: #e0f7fa;
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 13px;
+    color: #006064;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.instructions-box strong {
+    color: #004d40;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: bold;
+    color: #444444;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    font-size: 15px;
+    outline: none;
+}
+
+.input-group input:focus {
+    border-color: #0066ff;
+}
+
+.btn-submit {
+    width: 100%;
+    background-color: #108954;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn-submit:hover {
+    background-color: #0b6b41;
+}
+
+.result-section {
+    margin-top: 24px;
+}
+
+.result-title {
+    color: #1a73e8;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 15px;
+}
+
+.result-card {
+    background-color: #f8f9fa;
+    border-left: 4px solid #1a73e8;
+    border-radius: 4px;
+    padding: 16px;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #333333;
+}
+
+.footer {
+    text-align: center;
+    padding: 12px;
+    font-size: 12px;
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    background-color: #fafafa;
+}
