@@ -1,7 +1,7 @@
 # Periodic Table Information Finder
 from pyscript import document
 
-# Database of non-metal elements
+
 non_metals = {
     "H": {"name": "Hydrogen", "atomic_number": 1, "atomic_mass": "1.008"},
     "HE": {"name": "Helium", "atomic_number": 2, "atomic_mass": "4.0026"},
